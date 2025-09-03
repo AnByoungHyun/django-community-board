@@ -9,6 +9,7 @@ cd django-community-board/
 sudo apt-get install python3.10-venv
 python3 -m venv venv
 source venv/bin/activate
-sudo apt-get install mysql-client python3-dev default-libmysqlclient-dev pkg-config libmysqlclient-dev build-essential
+sudo apt-get install -y mysql-client python3-dev default-libmysqlclient-dev \
+  pkg-config libmysqlclient-dev build-essential
 pip install -r requirements.txt
 ```
