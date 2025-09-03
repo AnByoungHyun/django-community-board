@@ -6,10 +6,10 @@ Django 를 사용하여 기초적인 3 tier 아키텍처 구성을 연습하기 
 ``` bash
 git clone https://github.com/AnByoungHyun/django-community-board.git
 cd django-community-board/
-sudo apt-get install python3.10-venv
+sudo apt-get install -y python3.10-venv mysql-client python3-dev \
+  default-libmysqlclient-dev pkg-config libmysqlclient-dev \
+  build-essential
 python3 -m venv venv
 source venv/bin/activate
-sudo apt-get install -y mysql-client python3-dev default-libmysqlclient-dev \
-  pkg-config libmysqlclient-dev build-essential
 pip install -r requirements.txt
 ```
